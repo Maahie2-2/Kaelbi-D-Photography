@@ -1,0 +1,2131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaelbi D Photography | Cozy, Warm-Toned Photography | Oklahoma</title>
+    <meta name="description"
+        content="Capturing the art of the everyday. SE Oklahoma photographer specializing in cozy, warm-toned photography for families, couples, seniors, and milestones.">
+
+    <!-- Luxury Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cormorant+Infant:ital,wght@0,300;0,400;1,300&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-black: #5C4B3A;
+            /* Warm Earth */
+            --color-white: #ffffff;
+            --color-bg: #FAF9F6;
+            /* Soft Cream */
+            --color-gold: #C29B6D;
+            /* Golden Oak */
+            --color-gold-light: #C29B6D;
+            /* Muted Sage */
+            --color-ochre: #C29B6D;
+            /* Muted Sage */
+            --color-gray-50: #FAF9F6;
+            --color-gray-100: #EBEBEB;
+            --color-gray-200: #DCDCDC;
+            --color-gray-400: #9E9E9E;
+            /* Warm Mid */
+            --color-gray-600: #7A7A7A;
+            /* Warm Medium */
+            --color-gray-800: #5C4B3A;
+            --color-gray-900: #5C4B3A;
+
+            --font-serif: 'Cormorant Garamond', serif;
+            --font-script: 'Great Vibes', cursive;
+            --font-alt: 'Cormorant Infant', serif;
+
+            --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-luxury: cubic-bezier(0.16, 1, 0.3, 1);
+            --shadow-gold: 0 10px 30px rgba(194, 155, 109, 0.15);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-serif);
+            background: var(--color-bg);
+            color: var(--color-black);
+            line-height: 1.6;
+            letter-spacing: 0.02em;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ===== SCROLLBAR ===== */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--color-gray-100);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--color-gray-400);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--color-gray-600);
+        }
+
+        /* ===== NAVIGATION (MOBILE‑FIRST) ===== */
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 2.5rem 0;
+            background: transparent;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            height: 100%;
+        }
+
+        .nav-menu-wrapper {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex: 1;
+        }
+
+        .nav-links-left {
+            justify-content: flex-start;
+            padding-right: 2rem;
+        }
+
+        .nav-links-right {
+            justify-content: flex-end;
+            padding-left: 2rem;
+        }
+
+        .logo {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 110;
+            transition: all 0.4s var(--transition-luxury);
+        }
+
+        .logo-main {
+            font-family: var(--font-serif);
+            font-size: 1.4rem;
+            font-weight: 300;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--color-white);
+            line-height: 1;
+            white-space: nowrap;
+            transition: all 0.4s var(--transition-luxury);
+        }
+
+        .logo-subtitle {
+            font-family: var(--font-alt);
+            font-size: 0.55rem;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--color-gold-light);
+            margin-top: 0.4rem;
+            white-space: nowrap;
+            opacity: 0.9;
+            transition: all 0.4s var(--transition-luxury);
+        }
+
+        nav.scrolled .logo-main {
+            color: var(--color-black);
+            font-size: 1.1rem;
+        }
+
+        nav.scrolled .logo-subtitle {
+            font-size: 0.45rem;
+            margin-top: 0.2rem;
+        }
+
+        .nav-link {
+            font-family: var(--font-alt);
+            font-size: 0.72rem;
+            font-weight: 400;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--color-white);
+            text-decoration: none;
+            position: relative;
+            padding: 0.5rem 0;
+            transition: color 0.3s ease;
+        }
+
+        nav.scrolled .nav-link {
+            color: var(--color-black);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--color-white);
+            transition: width 0.4s var(--transition-luxury);
+        }
+
+        nav.scrolled .nav-link::after {
+            background: var(--color-black);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Mobile specific Toggle Button */
+        .nav-toggle {
+            display: none;
+            background: rgba(250, 249, 246, 0.9) !important;
+            border: 1px solid rgba(194, 155, 109, 0.15);
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            color: #5C4B3A !important;
+            cursor: pointer;
+            z-index: 9999;
+            transition: all 0.4s var(--transition-luxury);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        nav.scrolled .nav-toggle {
+            background: rgba(92, 75, 58, 0.05);
+            border-color: rgba(92, 75, 58, 0.05);
+            color: #5C4B3A !important;
+        }
+
+        .nav-toggle:hover {
+            background: var(--color-gold);
+            border-color: var(--color-gold);
+            color: var(--color-white) !important;
+            transform: scale(1.05);
+        }
+
+        .nav-close {
+            display: none;
+        }
+
+        /* Mobile responsive adjustments */
+        @media (max-width: 991px) {
+            .nav-container {
+                padding: 0 1.5rem;
+                height: 80px;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: space-between;
+                position: relative;
+            }
+
+            .logo {
+                font-size: 1.1rem;
+                position: relative;
+                left: 0;
+                transform: none;
+                padding-right: 60px !important;
+            }
+
+            .nav-toggle {
+                display: flex !important;
+                position: absolute !important;
+                right: 0.4rem !important;
+                top: 35% !important;
+                transform: translateY(-50%) !important;
+                z-index: 10000;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+
+            .logo-subtitle {
+                font-size: 0.45rem;
+                white-space: normal;
+                text-align: left;
+                max-width: 180px;
+                line-height: 1.2;
+            }
+
+            .nav-toggle.menu-open {
+                display: none !important;
+            }
+
+            .nav-menu-wrapper {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 100%;
+                height: 100vh;
+                background: rgba(255, 255, 255, 0.98);
+                backdrop-filter: blur(15px);
+                flex-direction: column;
+                justify-content: center;
+                transition: 0.6s var(--transition-luxury);
+                z-index: 200;
+                padding: 4rem 2rem;
+            }
+
+            .nav-menu-wrapper.active {
+                right: 0;
+            }
+
+            .nav-close {
+                display: flex !important;
+                position: absolute;
+                top: 2rem;
+                right: 1.5rem;
+                background: rgba(0, 0, 0, 0.05);
+                border: 1px solid rgba(0, 0, 0, 0.05);
+                border-radius: 50%;
+                width: 44px;
+                height: 44px;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.5rem;
+                color: var(--color-black);
+                cursor: pointer;
+                transition: all 0.4s var(--transition-luxury);
+            }
+
+            .nav-close:hover {
+                background: var(--color-gold);
+                color: var(--color-white);
+                transform: rotate(90deg);
+            }
+
+            .nav-links {
+                flex-direction: column;
+                flex: none;
+                gap: 2rem;
+                width: 100%;
+                padding: 0;
+                opacity: 0;
+                transform: translateY(20px);
+                transition: all 0.5s ease 0.3s;
+            }
+
+            .nav-menu-wrapper.active .nav-links {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .nav-links-left,
+            .nav-links-right {
+                justify-content: center;
+                padding: 0;
+            }
+
+            .nav-menu-wrapper.active .nav-links-left li .nav-link,
+            .nav-menu-wrapper.active .nav-links-right li .nav-link {
+                transition-delay: inherit;
+            }
+
+            /* 1. Force the menu text to be visible (Dark Brown/Black) */
+            .nav-menu-wrapper.active .nav-link {
+                color: #5C4B3A !important;
+                /* Warm Earth */
+                opacity: 1 !important;
+                display: block !important;
+            }
+
+            /* 2. Ensure the text isn't hidden by the staggered animation */
+            .nav-menu-wrapper.active .nav-links {
+                opacity: 1 !important;
+                transform: translateY(0) !important;
+                visibility: visible !important;
+            }
+
+            /* 3. Make sure the close button (X) is visible */
+            .nav-close {
+                color: #5C4B3A !important;
+                opacity: 1 !important;
+                display: flex !important;
+                /* Ensure it's not set to none */
+            }
+
+            /* 4. Optional: Add a subtle border to the links so they stand out */
+            .nav-links li {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+                width: 100%;
+                text-align: center;
+            }
+
+            .nav-toggle {
+                text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        /* Marquee Mobile Optimization */
+        @media (max-width: 768px) {
+            .marquee-item {
+                width: 160px;
+                margin: 0 8px;
+            }
+
+            @keyframes scrollMarquee {
+                0% {
+                    transform: translateX(0);
+                }
+
+                100% {
+                    transform: translateX(calc(-176px * 20));
+                }
+
+                /* 160px + 16px gap */
+            }
+        }
+
+        /* Hero Mobile Fix */
+        @media (max-width: 768px) {
+            .hero {
+                min-height: 80vh;
+                /* Shorter on mobile for better usability */
+                background-attachment: scroll !important;
+                background-position: 50% 20%;
+                /* Shift up higher on mobile to keep heads in frame */
+            }
+
+            .hero-title {
+                font-size: clamp(2.5rem, 12vw, 3.5rem) !important;
+                letter-spacing: 0.1em;
+            }
+        }
+
+        /* Desktop Layout (Standard Horizontal) */
+        @media (min-width: 769px) {
+            .nav-container {
+                flex-direction: row;
+                justify-content: center;
+                /* Center the whole navigation */
+                padding: 0 4rem;
+                position: relative;
+            }
+
+            .nav-logo-item {
+                position: static;
+                transform: none;
+            }
+
+            .hero {
+                background-image: linear-gradient(to bottom, rgba(40, 40, 40, 0.4) 0%, rgba(40, 40, 40, 0.2) 50%, rgba(40, 40, 40, 0.6) 100%), url('images/hero web.png') !important;
+            }
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(to bottom, rgba(40, 40, 40, 0.4) 0%, rgba(40, 40, 40, 0.2) 50%, rgba(40, 40, 40, 0.6) 100%), url('images/hero mobile.jpg');
+            background-size: cover;
+            background-position: 50% 30%;
+            /* Focus on faces/horizon */
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at center, rgba(146, 135, 99, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+
+        .hero-corner {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .hero-corner.top-left {
+            top: 60px;
+            left: 30px;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        .hero-corner.top-right {
+            top: 60px;
+            right: 30px;
+            border-left: none;
+            border-bottom: none;
+        }
+
+        .hero-corner.bottom-left {
+            bottom: 60px;
+            left: 30px;
+            border-right: none;
+            border-top: none;
+        }
+
+        .hero-corner.bottom-right {
+            bottom: 60px;
+            right: 30px;
+            border-left: none;
+            border-top: none;
+        }
+
+        .hero-content {
+            text-align: center;
+            color: var(--color-white);
+            z-index: 10;
+            padding: 2rem;
+            max-width: 900px;
+        }
+
+        .hero-eyebrow {
+            font-family: var(--font-alt);
+            font-size: 0.85rem;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            opacity: 0;
+            animation: fadeInUp 1s var(--transition-luxury) 0.2s forwards;
+        }
+
+        .hero-title {
+            font-family: var(--font-serif);
+            font-size: clamp(3rem, 9vw, 6rem);
+            font-weight: 300;
+            letter-spacing: 0.15em;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+            opacity: 0;
+            animation: fadeInUp 1.2s var(--transition-luxury) 0.4s forwards;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-alt);
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            font-weight: 300;
+            font-style: italic;
+            letter-spacing: 0.15em;
+            color: var(--color-white);
+            margin-bottom: 2.5rem;
+            opacity: 0;
+            animation: fadeInUp 1s var(--transition-luxury) 0.6s forwards;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero-script {
+            font-family: var(--font-script);
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            color: var(--color-gold-light);
+            margin-bottom: 2rem;
+            opacity: 0;
+            animation: fadeInUp 1s var(--transition-luxury) 0.6s forwards;
+        }
+
+        .hero-description {
+            font-family: var(--font-alt);
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+            opacity: 0;
+            animation: fadeInUp 1s var(--transition-luxury) 0.8s forwards;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            opacity: 0;
+            animation: fadeInUp 1s var(--transition-luxury) 1s forwards;
+        }
+
+        .btn {
+            font-family: var(--font-alt);
+            font-size: 0.75rem;
+            font-weight: 400;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            transition: all 0.4s var(--transition-luxury);
+            position: relative;
+        }
+
+        .btn-primary {
+            background: var(--color-black);
+            color: var(--color-white);
+            border: 1px solid var(--color-black);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--color-black);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-white {
+            background: var(--color-white);
+            color: var(--color-black);
+            border: 1px solid var(--color-white);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-white:hover {
+            background: transparent;
+            color: var(--color-white);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--color-white);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(5px);
+        }
+
+        .btn-outline:hover {
+            background: var(--color-white);
+            color: var(--color-black);
+            border-color: var(--color-white);
+            transform: translateY(-3px);
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+            opacity: 0;
+            animation: fadeIn 1s var(--transition-luxury) 1.5s forwards;
+        }
+
+        .scroll-text {
+            font-family: var(--font-alt);
+            font-size: 0.6rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .scroll-line {
+            width: 1px;
+            height: 50px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
+            animation: scrollPulse 2s infinite;
+        }
+
+        /* ===== SECTION HEADERS ===== */
+        section {
+            padding: 6rem 1.5rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-eyebrow {
+            font-family: var(--font-alt);
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--color-gray-400);
+            display: block;
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            font-family: var(--font-alt);
+            font-size: 1rem;
+            color: var(--color-gray-600);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* ===== MARQUEE PORTFOLIO ===== */
+        /* ===== MARQUEE PORTFOLIO ===== */
+        .marquee-wrapper {
+            position: relative;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            /* Full width break-out */
+            overflow: hidden;
+            padding: 4rem 0 6rem;
+        }
+
+        .marquee-track {
+            display: flex;
+            width: fit-content;
+            animation: scrollMarquee 60s linear infinite;
+        }
+
+        .marquee-track:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes scrollMarquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(calc(-252px * 20));
+                /* Move by the width of 20 items (220px + 32px gap) */
+            }
+        }
+
+        .marquee-item {
+            flex-shrink: 0;
+            width: 220px;
+            margin: 0 16px;
+            aspect-ratio: 3/4;
+            overflow: hidden;
+            transition: transform 0.6s var(--transition-luxury);
+        }
+
+        .marquee-item:nth-child(even) {
+            transform: translateY(32px);
+        }
+
+        .marquee-item:hover {
+            z-index: 10;
+        }
+
+        .marquee-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s var(--transition-luxury);
+        }
+
+        .marquee-item:hover .marquee-image {
+            transform: scale(1.1);
+        }
+
+        /* fade edges */
+        .marquee-fade-left,
+        .marquee-fade-right {
+            position: absolute;
+            top: 0;
+            width: 15%;
+            height: 100%;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .marquee-fade-left {
+            left: 0;
+            background: linear-gradient(to right, #FAF9F6, transparent);
+        }
+
+        .marquee-fade-right {
+            right: 0;
+            background: linear-gradient(to left, #FAF9F6, transparent);
+        }
+
+        .portfolio-btn-wrapper {
+            text-align: center;
+            margin: 4rem 0 0;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* ===== ABOUT ===== */
+        .about-section {
+            background: var(--color-white);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            /* Centered content */
+            gap: 4rem;
+            align-items: center;
+            text-align: center;
+        }
+
+        @media (max-width: 991px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+                text-align: center;
+            }
+
+            .about-content {
+                order: 1;
+            }
+
+            .about-image-wrapper {
+                order: 2;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+
+            .about-text {
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .about-image-wrapper {
+            position: relative;
+            width: 100%;
+        }
+
+        .about-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+        }
+
+        .about-image-frame {
+            position: absolute;
+            inset: -15px;
+            border: 1px solid var(--color-gray-200);
+            z-index: -1;
+        }
+
+        @media (max-width: 768px) {
+            .about-image-wrapper {
+                padding: 15px;
+            }
+
+            .about-image-frame {
+                inset: 0;
+            }
+        }
+
+        .about-content {
+            padding: 0;
+        }
+
+        .about-eyebrow {
+            font-family: var(--font-script);
+            font-size: 2.2rem;
+            color: var(--color-gold);
+            margin-bottom: 1rem;
+        }
+
+        .about-title {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 5vw, 2.8rem);
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-text {
+            font-family: var(--font-alt);
+            font-size: 0.95rem;
+            line-height: 2;
+            color: var(--color-gray-600);
+            margin: 0 auto 1.2rem;
+            max-width: 800px;
+        }
+
+        .about-signature {
+            font-family: var(--font-script);
+            font-size: 2.5rem;
+            color: var(--color-gold);
+            margin-top: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .about-eyebrow {
+                font-size: 1.6rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .about-title {
+                font-size: 1.4rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .about-text {
+                font-size: 0.8rem;
+                line-height: 1.6;
+                margin-bottom: 0.8rem;
+            }
+
+            .about-signature {
+                font-size: 1.8rem;
+                margin-top: 0.5rem;
+            }
+        }
+
+        /* ===== SERVICES SECTION ===== */
+        .services-section {
+            background: var(--color-white);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+        }
+
+        @media (min-width: 768px) {
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .service-card {
+            text-align: center;
+            padding: 1rem;
+            transition: all 0.5s var(--transition-luxury);
+        }
+
+        .service-image-wrapper {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 3/4;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+        }
+
+        .service-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 1s var(--transition-luxury);
+        }
+
+        .service-card:hover .service-image {
+            transform: scale(1.05);
+        }
+
+        .service-title {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            letter-spacing: 0.05em;
+        }
+
+        .service-description {
+            font-family: var(--font-alt);
+            font-size: 0.95rem;
+            color: var(--color-gray-600);
+            line-height: 1.6;
+            max-width: 280px;
+            margin: 0 auto;
+        }
+
+        .service-border {
+            width: 40px;
+            height: 1px;
+            background: var(--color-gray-200);
+            margin: 1.5rem auto;
+            transition: width 0.4s var(--transition-luxury);
+        }
+
+        .service-card:hover .service-border {
+            width: 80px;
+            background: var(--color-gold);
+        }
+
+        /* ===== REVIEWS SECTION ===== */
+        .reviews-section {
+            background: var(--color-gray-900);
+            color: var(--color-white);
+            padding: 8rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .reviews-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        @media (max-width: 480px) {
+            .reviews-container {
+                padding: 0 0.75rem;
+                /* Maximize width on small phones */
+            }
+        }
+
+        .reviews-slider {
+            position: relative;
+            margin-top: 4rem;
+        }
+
+        .review-slide {
+            display: none;
+            grid-template-columns: 1.2fr 0.8fr;
+            /* Text on left, image on right */
+            gap: 3rem;
+            align-items: center;
+            animation: fadeIn 0.8s ease-in-out forwards;
+            padding: 3.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            /* More visible Frame */
+            background: rgba(255, 255, 255, 0.03);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .review-slide.active {
+            display: grid;
+        }
+
+        @media (max-width: 991px) {
+            .review-slide {
+                grid-template-columns: 1.1fr 0.9fr;
+                /* Better balance for larger appearance */
+                gap: 0.8rem;
+                padding: 0.8rem;
+            }
+
+            .review-text {
+                font-size: 1.05rem;
+                /* Increased for better mobile readability */
+                margin-bottom: 1.2rem;
+                line-height: 1.5;
+            }
+
+            .review-quote-icon {
+                font-size: 1.8rem;
+                margin-bottom: 0.8rem;
+            }
+
+            .review-author {
+                font-size: 0.8rem;
+            }
+
+            .review-recommends {
+                font-size: 0.7rem;
+            }
+        }
+
+        .review-image-wrapper {
+            position: relative;
+            aspect-ratio: 4 / 5;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .review-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            transition: transform 1.5s var(--transition-luxury);
+        }
+
+        .review-slide.active .review-image {
+            transform: scale(1.05);
+        }
+
+        .review-content {
+            text-align: left;
+        }
+
+        .review-quote-icon {
+            font-size: 2.5rem;
+            color: var(--color-gold);
+            margin-bottom: 2rem;
+            display: block;
+            opacity: 0.5;
+        }
+
+        .review-text {
+            font-family: var(--font-serif);
+            font-size: clamp(1.2rem, 3vw, 1.6rem);
+            line-height: 1.6;
+            font-weight: 300;
+            font-style: italic;
+            margin-bottom: 2.5rem;
+            color: var(--color-white);
+        }
+
+        .review-author {
+            font-family: var(--font-alt);
+            font-size: 0.9rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--color-gray-300);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .review-recommends {
+            font-family: var(--font-alt);
+            font-size: 0.75rem;
+            color: var(--color-gold);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .slider-controls {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 4rem;
+            align-items: center;
+        }
+
+        .slider-nav {
+            background: none;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--color-white);
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .slider-nav:hover {
+            background: var(--color-gold);
+            border-color: var(--color-gold);
+            color: var(--color-black);
+        }
+
+        .slider-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            padding: 0;
+        }
+
+        .slider-dot.active {
+            background: var(--color-gold);
+            transform: scale(1.8);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Service Card Glow */
+        .service-card {
+            background: var(--color-white);
+            border: 1px solid transparent;
+            transition: all 0.5s var(--transition-luxury);
+        }
+
+        .service-card:hover {
+            border-color: var(--color-gold-light);
+            box-shadow: var(--shadow-gold);
+            transform: translateY(-5px);
+        }
+
+        .learn-more-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            font-family: var(--font-alt);
+            font-size: 0.75rem;
+            font-weight: 400;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--color-gold);
+            text-decoration: none;
+            position: relative;
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .learn-more-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30%;
+            height: 1px;
+            background: var(--color-gold);
+            transition: width 0.4s var(--transition-luxury);
+        }
+
+        .learn-more-link:hover {
+            color: var(--color-black);
+            letter-spacing: 0.25em;
+        }
+
+        .learn-more-link:hover::after {
+            width: 100%;
+            background: var(--color-black);
+        }
+
+        /* ===== CTA / BOOKING FORM ===== */
+        .cta-section {
+            background: #FAF9F6;
+            color: #5C4B3A;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: -30%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.03) 0%, transparent 70%);
+            animation: rotate 30s linear infinite;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cta-title {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 6vw, 3rem);
+            margin-bottom: 1.5rem;
+            color: #5C4B3A;
+        }
+
+        /* ===== BOOKING FORM ===== */
+        .booking-form {
+            background: #FAF6F1;
+            padding: 2.5rem;
+            border: 1px solid #D4C4B0;
+            margin-top: 2rem;
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-family: var(--font-alt);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+            color: #5C4B3A;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.9rem 1rem;
+            background: #FAF9F6;
+            border: 1px solid #D4C4B0;
+            border-radius: 0;
+            font-family: var(--font-alt);
+            font-size: 0.95rem;
+            color: #5C4B3A;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: rgba(194, 155, 109, 0.4);
+            background: rgba(194, 155, 109, 0.03);
+        }
+
+        textarea.form-input {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .radio-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 0.8rem;
+            text-align: left;
+            margin-top: 0.5rem;
+        }
+
+        .radio-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: var(--font-alt);
+            font-size: 0.9rem;
+            cursor: pointer;
+            color: var(--color-gray-700);
+            transition: color 0.3s ease;
+        }
+
+        .radio-label:hover {
+            color: var(--color-black);
+        }
+
+        .radio-label input[type="radio"] {
+            accent-color: var(--color-gold);
+            width: 16px;
+            height: 16px;
+        }
+
+        select.form-input {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 1em;
+            padding-right: 2.5rem;
+        }
+
+        /* Submit button uses existing .btn-primary */
+        .booking-form .btn-primary {
+            width: 100%;
+            max-width: 250px;
+            margin: 1.5rem auto 0;
+            background: var(--color-black);
+            color: #FAF6F1;
+            border-color: var(--color-black);
+        }
+
+        .booking-form .btn-primary:hover {
+            background: #5C3A1E;
+            color: #FAF6F1;
+            border-color: #5C3A1E;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--color-gray-900);
+            color: var(--color-white);
+            padding: 4rem 1.5rem 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .footer-grid {
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+            }
+        }
+
+        .footer-logo {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            letter-spacing: 0.2em;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .footer-text {
+            font-family: var(--font-alt);
+            font-size: 0.9rem;
+            line-height: 1.8;
+            color: var(--color-gray-400);
+        }
+
+        .footer-title {
+            font-family: var(--font-alt);
+            font-size: 0.65rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            color: var(--color-gray-400);
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.9rem;
+        }
+
+        .footer-links a {
+            font-family: var(--font-alt);
+            font-size: 0.9rem;
+            color: var(--color-gray-400);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--color-white);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .social-link {
+            width: 42px;
+            height: 42px;
+            border: 1px solid var(--color-gray-600);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-gray-400);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--color-white);
+            border-color: var(--color-white);
+            color: var(--color-black);
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 3rem auto 0;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-gray-800);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            align-items: center;
+            font-size: 0.75rem;
+            color: var(--color-gray-600);
+        }
+
+        /* ===== ANIMATIONS ===== */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scrollPulse {
+
+            0%,
+            100% {
+                opacity: 0.3;
+                transform: scaleY(0.5);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scaleY(1);
+            }
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Reveal animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s var(--transition-luxury);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Light Motes Animation */
+        .motes-container {
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .mote {
+            position: absolute;
+            background: radial-gradient(circle, #ffffff 0%, transparent 70%);
+            border-radius: 50%;
+            opacity: 0.2;
+            filter: blur(1px);
+            animation: floatMote 20s infinite linear;
+        }
+
+        @keyframes floatMote {
+            0% {
+                transform: translate(0, 0) scale(1);
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 0.4;
+            }
+
+            80% {
+                opacity: 0.4;
+            }
+
+            100% {
+                transform: translate(var(--move-x), var(--move-y)) scale(0.5);
+                opacity: 0;
+            }
+        }
+
+        /* Bloom effect on hover */
+        .work-item::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--color-gold);
+            opacity: 0;
+            mix-blend-mode: overlay;
+            transition: opacity 0.6s var(--transition-luxury);
+            pointer-events: none;
+        }
+
+        .work-item:hover::after {
+            opacity: 0.3;
+        }
+
+        /* Personal Touch: Script highlights */
+        .highlight-script {
+            color: var(--color-gold);
+            font-family: var(--font-script);
+            font-size: 1.2em;
+            vertical-align: middle;
+        }
+
+        /* Cursor Trail */
+        .cursor-mote {
+            position: fixed;
+            pointer-events: none;
+            width: 6px;
+            height: 6px;
+            background: var(--color-gold-light);
+            border-radius: 50%;
+            z-index: 9999;
+            filter: blur(1px);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-main">
+                    <span
+                        style="font-family: var(--font-script); font-size: 1.8rem; text-transform: none; letter-spacing: 0; color: var(--color-gold);">K</span>aelbi
+                    D
+                </div>
+                <span class="logo-subtitle">Photography · Oklahoma</span>
+            </a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu">
+                <i class="ri-menu-line"></i>
+            </button>
+
+            <div class="nav-menu-wrapper" id="nav-menu">
+                <button class="nav-close" id="nav-close" aria-label="Close Mobile Menu">
+                    <i class="ri-close-line"></i>
+                </button>
+                <ul class="nav-links nav-links-left">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                </ul>
+
+                <ul class="nav-links nav-links-right">
+                    <li><a href="packages.html" class="nav-link">Packages</a></li>
+                    <li><a href="FAQ.html" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link">Book Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="motes-container" id="motes"></div>
+        <div class="hero-corner top-left"></div>
+        <div class="hero-corner top-right"></div>
+        <div class="hero-corner bottom-left"></div>
+        <div class="hero-corner bottom-right"></div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Ready to Make</h1>
+            <p class="hero-script">Magic?</p>
+            <p class="hero-description">Cozy, warm-toned photography for the wild at heart · SE Oklahoma & beyond</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-white">Let's Create</a>
+                <a href="portfolio.html" class="btn btn-outline">View Portfolio</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content reveal">
+                    <span class="about-eyebrow">Meet The Artist</span>
+                    <h2 class="about-title">Hi, I'm Kaelbi <br><span style="font-family: var(--font-alt); font-style: italic; font-weight: 300; font-size: 0.85em; color: var(--color-gold-light); display: block; margin-top: 0.5rem; letter-spacing: 0.05em;">the heart behind Kaelbi D Photography</span></h2>
+                    <p class="about-text">
+                        Capturing the art of the everyday. Based in SE Oklahoma and traveling everywhere in between,
+                        I specialize in cozy, warm-toned photography for the wild at heart.
+                    </p>
+                    <p class="about-text">
+                        I'm here for the genuine moments, the loud laughs, and the people who want their photos
+                        to feel like home. Whether it's golden hour in an open field or a quiet moment on the porch,
+                        I want your images to feel warm, real, and completely you.
+                    </p>
+                    <p class="about-text">
+                        Let's make something beautiful together.
+                    </p>
+                    <div class="about-signature">Kaelbi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow">Services</span>
+                <h2 class="section-title">What I Offer</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Couples -->
+                <div class="service-card reveal">
+                    <div class="service-image-wrapper">
+                        <img src="images/couple.jpg" alt="Couples" class="service-image">
+                    </div>
+                    <h3 class="service-title">Couples</h3>
+                    <div class="service-border"></div>
+                    <p class="service-description">
+                        Capturing the intimate whispers, the authentic connections, and every timeless moment of your
+                        love
+                        story.
+                    </p>
+                    <a href="packages.html#couples" class="learn-more-link">Learn More</a>
+                </div>
+
+                <!-- Mini Sessions -->
+                <div class="service-card reveal">
+                    <div class="service-image-wrapper">
+                        <img src="images/mini.jpg" alt="Mini Sessions" class="service-image">
+                    </div>
+                    <h3 class="service-title">Mini Sessions</h3>
+                    <div class="service-border"></div>
+                    <p class="service-description">
+                        Perfect for seasonal updates, quick milestones, or simply capturing the beauty in a shorter
+                        window of time.
+                    </p>
+                    <a href="packages.html#mini-sessions" class="learn-more-link">Learn More</a>
+                </div>
+
+                <!-- Family -->
+                <div class="service-card reveal">
+                    <div class="service-image-wrapper">
+                        <img src="images/family.jpg" alt="Family" class="service-image">
+                    </div>
+                    <h3 class="service-title">Family</h3>
+                    <div class="service-border"></div>
+                    <p class="service-description">
+                        Freezing genuine smiles, warm hugs, and the unique connection that makes your family story
+                        yours.
+                    </p>
+                    <a href="packages.html#packages" class="learn-more-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO (MARQUEE) -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">See My Work</h2>
+            </div>
+
+            <div class="marquee-wrapper">
+                <div class="marquee-fade-left"></div>
+                <div class="marquee-fade-right"></div>
+
+                <div class="marquee-track">
+                    <!-- Total 20 Images -->
+                    <div class="marquee-item"><img src="images/image1.jpg" class="marquee-image" alt="Work 1"></div>
+                    <div class="marquee-item"><img src="images/image2.jpg" class="marquee-image" alt="Work 2"></div>
+                    <div class="marquee-item"><img src="images/image3.jpg" class="marquee-image" alt="Work 3"></div>
+                    <div class="marquee-item"><img src="images/image4.jpg" class="marquee-image" alt="Work 4"></div>
+                    <div class="marquee-item"><img src="images/image5.jpg" class="marquee-image" alt="Work 5"></div>
+                    <div class="marquee-item"><img src="images/image6.jpg" class="marquee-image" alt="Work 6"></div>
+                    <div class="marquee-item"><img src="images/image7.jpg" class="marquee-image" alt="Work 7"></div>
+                    <div class="marquee-item"><img src="images/image8.jpg" class="marquee-image" alt="Work 8"></div>
+                    <div class="marquee-item"><img src="images/image9.jpg" class="marquee-image" alt="Work 9"></div>
+                    <div class="marquee-item"><img src="images/image10.jpg" class="marquee-image" alt="Work 10"></div>
+                    <div class="marquee-item"><img src="images/image11.jpg" class="marquee-image" alt="Work 11"></div>
+                    <div class="marquee-item"><img src="images/image12.jpg" class="marquee-image" alt="Work 12"></div>
+                    <div class="marquee-item"><img src="images/image13.jpg" class="marquee-image" alt="Work 13"></div>
+                    <div class="marquee-item"><img src="images/image14.jpg" class="marquee-image" alt="Work 14"></div>
+                    <div class="marquee-item"><img src="images/image15.jpg" class="marquee-image" alt="Work 15"></div>
+                    <div class="marquee-item"><img src="images/image16.jpg" class="marquee-image" alt="Work 16"></div>
+                    <div class="marquee-item"><img src="images/image17.jpg" class="marquee-image" alt="Work 17"></div>
+                    <div class="marquee-item"><img src="images/image18.jpg" class="marquee-image" alt="Work 18"></div>
+                    <div class="marquee-item"><img src="images/image19.jpg" class="marquee-image" alt="Work 19"></div>
+                    <div class="marquee-item"><img src="images/image20.jpg" class="marquee-image" alt="Work 20"></div>
+
+                    <!-- Duplicated items for seamless loop (Total 20) -->
+                    <div class="marquee-item"><img src="images/image1.jpg" class="marquee-image" alt="Work 1"></div>
+                    <div class="marquee-item"><img src="images/image2.jpg" class="marquee-image" alt="Work 2"></div>
+                    <div class="marquee-item"><img src="images/image3.jpg" class="marquee-image" alt="Work 3"></div>
+                    <div class="marquee-item"><img src="images/image4.jpg" class="marquee-image" alt="Work 4"></div>
+                    <div class="marquee-item"><img src="images/image5.jpg" class="marquee-image" alt="Work 5"></div>
+                    <div class="marquee-item"><img src="images/image6.jpg" class="marquee-image" alt="Work 6"></div>
+                    <div class="marquee-item"><img src="images/image7.jpg" class="marquee-image" alt="Work 7"></div>
+                    <div class="marquee-item"><img src="images/image8.jpg" class="marquee-image" alt="Work 8"></div>
+                    <div class="marquee-item"><img src="images/image9.jpg" class="marquee-image" alt="Work 9"></div>
+                    <div class="marquee-item"><img src="images/image10.jpg" class="marquee-image" alt="Work 10"></div>
+                    <div class="marquee-item"><img src="images/image11.jpg" class="marquee-image" alt="Work 11"></div>
+                    <div class="marquee-item"><img src="images/image12.jpg" class="marquee-image" alt="Work 12"></div>
+                    <div class="marquee-item"><img src="images/image13.jpg" class="marquee-image" alt="Work 13"></div>
+                    <div class="marquee-item"><img src="images/image14.jpg" class="marquee-image" alt="Work 14"></div>
+                    <div class="marquee-item"><img src="images/image15.jpg" class="marquee-image" alt="Work 15"></div>
+                    <div class="marquee-item"><img src="images/image16.jpg" class="marquee-image" alt="Work 16"></div>
+                    <div class="marquee-item"><img src="images/image17.jpg" class="marquee-image" alt="Work 17"></div>
+                    <div class="marquee-item"><img src="images/image18.jpg" class="marquee-image" alt="Work 18"></div>
+                    <div class="marquee-item"><img src="images/image19.jpg" class="marquee-image" alt="Work 19"></div>
+                    <div class="marquee-item"><img src="images/image20.jpg" class="marquee-image" alt="Work 20"></div>
+                </div>
+            </div>
+
+            <div class="portfolio-btn-wrapper reveal">
+                <a href="portfolio.html" class="btn btn-primary">Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews-section">
+        <div class="reviews-container">
+            <div class="section-header reveal">
+                <span class="section-eyebrow" style="color: var(--color-gray-400);">Kind Words</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+
+            <div class="reviews-slider reveal">
+                <!-- Review 1 -->
+                <div class="review-slide active">
+                    <div class="review-content">
+                        <i class="ri-double-quotes-l review-quote-icon"></i>
+                        <p class="review-text">
+                            "We overall had an awesome experience with her! Our pictures turned out beautiful and I cannot recommend her enough."
+                        </p>
+                        <div class="review-author">Melina Durham</div>
+                        <span class="review-recommends">Recommends Kaelbi D Photography</span>
+                    </div>
+                    <div class="review-image-wrapper">
+                        <img src="images/review1.jpg" alt="Melina Durham Session" class="review-image">
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-slide">
+                    <div class="review-content">
+                        <i class="ri-double-quotes-l review-quote-icon"></i>
+                        <p class="review-text">
+                            "So Much F.U.N, We had a great time during our photo shoot. Teenage boys are hard and awkward but she worked her magic and captured some priceless pictures!"
+                        </p>
+                        <div class="review-author">Brittany Hill</div>
+                        <span class="review-recommends">Recommends Kaelbi D Photography</span>
+                    </div>
+                    <div class="review-image-wrapper">
+                        <img src="images/review2.jpg" alt="Brittany Hill Session" class="review-image">
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-slide">
+                    <div class="review-content">
+                        <i class="ri-double-quotes-l review-quote-icon"></i>
+                        <p class="review-text">
+                            "She took our family pictures and they were absolutely beautiful. My kids were running around being kids and she was very patient and polite with them!"
+                        </p>
+                        <div class="review-author">Megan Ra'Nae Schoggins</div>
+                        <span class="review-recommends">Recommends Kaelbi D Photography</span>
+                    </div>
+                    <div class="review-image-wrapper">
+                        <img src="images/review3.jpg" alt="Megan Ra'Nae Schoggins Session" class="review-image">
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-nav" id="prevReview" aria-label="Previous Review"><i
+                            class="ri-arrow-left-s-line"></i></button>
+                    <div style="display: flex; gap: 0.8rem;">
+                        <button class="slider-dot active" data-index="0" aria-label="Slide 1"></button>
+                        <button class="slider-dot" data-index="1" aria-label="Slide 2"></button>
+                        <button class="slider-dot" data-index="2" aria-label="Slide 3"></button>
+                    </div>
+                    <button class="slider-nav" id="nextReview" aria-label="Next Review"><i
+                            class="ri-arrow-right-s-line"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING FORM (formerly CTA) -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-content reveal">
+                <span class="cta-eyebrow">Begin Your Journey</span>
+                <h2 class="cta-title">Let's capture something truly beautiful together</h2>
+
+                <form class="booking-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your name *</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone number *</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email address *</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">What type of session are you looking for?</label>
+                        <select id="session_type" name="session_type" class="form-input" required>
+                            <option value="" disabled selected>Select a session</option>
+                            <option value="Senior Gold">Senior Gold</option>
+                            <option value="Senior Silver">Senior Silver</option>
+                            <option value="Senior Bronze">Senior Bronze</option>
+                            <option value="Mini Session">Mini Session</option>
+                            <option value="Standard Session">Standard Session</option>
+                            <option value="Full Session">Full Session</option>
+                            <option value="Couple Session">Couple Session</option>
+                            <option value="Family Session (up to 5)">Family Session (up to 5)</option>
+                            <option value="Family Session (up to 10)">Family Session (up to 10)</option>
+                            <option value="Maternity Session">Maternity Session</option>
+                            <option value="Mother’s Day Mini">Mother’s Day Mini</option>
+                            <option value="Birthday Bingo">Birthday Bingo</option>
+                            <option value="Studio Session">Studio Session</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="referral" class="form-label">How did you hear about me?</label>
+                        <select id="referral" name="referral" class="form-input">
+                            <option value="" disabled selected>Select option</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Google">Google</option>
+                            <option value="Friend/Family">Friend / Family</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" class="form-input" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Schedule Consultation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <span class="footer-logo">Kaelbi D Photography</span>
+                <p class="footer-text">
+                    Capturing the art of the everyday. Cozy, warm-toned photography for the wild at heart.
+                    Based in SE Oklahoma.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Book Now</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-title">Connect</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61578736992958" target="_blank" class="social-link" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61578736992958" target="_blank" class="social-link"
+                        aria-label="Facebook"><i class="ri-facebook-circle-line"></i></a>
+                    <a href="#" target="_blank" class="social-link" aria-label="TikTok"><i
+                            class="ri-tiktok-line"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Kaelbi D Photography. All rights reserved.</p>
+            <p>SE Oklahoma</p>
+        </div>
+    </footer>
+
+    <script>
+        // Reveal animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1, rootMargin: '-50px' });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Navbar scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', e => {
+                e.preventDefault();
+                const target = document.querySelector(anchor.getAttribute('href'));
+                target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        // Create Light Motes
+        const motesContainer = document.getElementById('motes');
+        const createMote = () => {
+            const mote = document.createElement('div');
+            mote.className = 'mote';
+
+            const size = Math.random() * 4 + 2;
+            const startX = Math.random() * 100;
+            const startY = Math.random() * 100;
+            const moveX = (Math.random() - 0.5) * 200;
+            const moveY = (Math.random() - 0.5) * 200;
+            const duration = Math.random() * 10 + 10;
+            const delay = Math.random() * 5;
+
+            mote.style.width = `${size}px`;
+            mote.style.height = `${size}px`;
+            mote.style.left = `${startX}%`;
+            mote.style.top = `${startY}%`;
+            mote.style.setProperty('--move-x', `${moveX}px`);
+            mote.style.setProperty('--move-y', `${moveY}px`);
+            mote.style.animationDuration = `${duration}s`;
+            mote.style.animationDelay = `-${delay}s`;
+
+            motesContainer.appendChild(mote);
+
+            setTimeout(() => mote.remove(), duration * 1000);
+        };
+
+        for (let i = 0; i < 30; i++) createMote();
+        setInterval(createMote, 1000);
+
+        // Toggle Mobile Menu
+        const navToggle = document.getElementById('nav-toggle');
+        const navClose = document.getElementById('nav-close');
+        const navMenu = document.getElementById('nav-menu');
+
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.add('active');
+                navToggle.classList.add('menu-open');
+                document.body.style.overflow = 'hidden';
+            });
+        }
+
+        if (navClose && navMenu) {
+            navClose.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('menu-open');
+                document.body.style.overflow = '';
+            });
+        }
+
+        // Close menu on link click (for mobile)
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('menu-open');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // Reviews Slider
+        const slides = document.querySelectorAll('.review-slide');
+        const dots = document.querySelectorAll('.slider-dot');
+        const nextBtn = document.getElementById('nextReview');
+        const prevBtn = document.getElementById('prevReview');
+        let currentSlide = 0;
+
+        const showSlide = (index) => {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            slides[index].classList.add('active');
+            dots[index].classList.add('active');
+            currentSlide = index;
+        };
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => showSlide(index));
+        });
+
+        nextBtn.addEventListener('click', () => {
+            let next = (currentSlide + 1) % slides.length;
+            showSlide(next);
+        });
+
+        prevBtn.addEventListener('click', () => {
+            let prev = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(prev);
+        });
+
+        // Cursor Trail logic
+        const createCursorMote = (e) => {
+            const mote = document.createElement('div');
+            mote.className = 'cursor-mote';
+            mote.style.left = `${e.clientX}px`;
+            mote.style.top = `${e.clientY}px`;
+            document.body.appendChild(mote);
+
+            const destinationX = e.clientX + (Math.random() - 0.5) * 50;
+            const destinationY = e.clientY + (Math.random() - 0.5) * 50;
+
+            const anim = mote.animate([
+                { opacity: 0.6, transform: 'scale(1) translate(0, 0)' },
+                { opacity: 0, transform: `scale(0) translate(${destinationX - e.clientX}px, ${destinationY - e.clientY}px)` }
+            ], {
+                duration: 800,
+                easing: 'cubic-bezier(0, .5, .5, 1)'
+            });
+
+            anim.onfinish = () => mote.remove();
+        };
+
+        let lastMove = 0;
+        window.addEventListener('mousemove', (e) => {
+            const now = Date.now();
+            if (now - lastMove > 50) {
+                createCursorMote(e);
+                lastMove = now;
+            }
+        });
+    </script>
+</body>
+
+</html>
